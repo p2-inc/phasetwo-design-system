@@ -4,8 +4,8 @@ import { render, screen } from "@testing-library/react";
 
 import Button from "./Button";
 
-describe("Running Test for Marbella Button", () => {
-  test("Check Button Disabled", () => {
+describe("Running Test for Menu Button", () => {
+  test("Check Button Enabled", () => {
     render(<Button>Button Text</Button>);
     expect(
       screen.getByRole("button", { name: "Button Text" })
