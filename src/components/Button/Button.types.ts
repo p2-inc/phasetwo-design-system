@@ -1,6 +1,6 @@
 import { MouseEventHandler } from "react";
 
-export interface ButtonProps {
+export interface Props {
   active?: boolean;
   disabled?: boolean;
   children?: React.ReactNode;

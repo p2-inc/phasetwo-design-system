@@ -6,9 +6,9 @@ import {
   XCircleIcon,
 } from "@heroicons/react/24/outline";
 import cs from "classnames";
-import { AlertProps } from "./Alert.types";
+import { Props } from "./Alert.types";
 
-const Alert: React.FC<AlertProps> = ({ title, body, type = "success" }) => {
+const Alert: React.FC<Props> = ({ title, body, type = "success" }) => {
   let color = "green";
 
   if (type === "warning") {
