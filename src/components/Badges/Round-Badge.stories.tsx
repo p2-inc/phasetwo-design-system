@@ -1,19 +1,19 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import Button from "./Button";
+import RoundBadge from "./round-badge";
 
 const meta = {
-  title: "Form/Button",
-  component: Button,
+  title: "Badges/Round",
+  component: RoundBadge,
   tags: ["autodocs"],
   argTypes: {},
-} satisfies Meta<typeof Button>;
+} satisfies Meta<typeof RoundBadge>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Primary: Story = {
+export const Default: Story = {
   args: {
-    children: "Button",
+    children: "round",
   },
 };
