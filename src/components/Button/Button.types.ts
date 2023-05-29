@@ -1,8 +1,10 @@
-import { MouseEventHandler } from "react";
-
-export interface Props {
-  active?: boolean;
-  disabled?: boolean;
-  children?: React.ReactNode;
-  onClick?: MouseEventHandler<HTMLButtonElement>;
-}
+export type ButtonProps = {
+  isBlackButton?: boolean;
+  primary?: boolean;
+  secondary?: boolean;
+  size?: "xs" | "sm" | "md" | "lg" | "xl";
+  isCompact?: boolean;
+} & React.DetailedHTMLProps<
+  React.ButtonHTMLAttributes<HTMLButtonElement>,
+  HTMLButtonElement
+>;

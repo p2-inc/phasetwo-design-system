@@ -6,7 +6,7 @@ import Button from "./Button";
 
 describe("Running Test for Menu Button", () => {
   test("Check Button Enabled", () => {
-    render(<Button>Button Text</Button>);
+    render(<Button primary>Button Text</Button>);
     expect(
       screen.getByRole("button", { name: "Button Text" })
     ).not.toBeDisabled();
