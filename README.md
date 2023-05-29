@@ -2,7 +2,17 @@
 
 This library contains common, shared components that the Phase Two UI's make use of. The library makes use of Tailwind and HeroIcons.
 
-## Run the code
+## Install for usage in a project
+
+Until deployed to NPM
+
+```
+$ npm install p2-inc/phasetwo-design-system
+```
+
+## Local Usage
+
+### Run the code
 
 Setup
 
