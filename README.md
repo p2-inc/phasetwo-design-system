@@ -7,7 +7,7 @@ This library contains common, shared components that the Phase Two UI's make use
 Until deployed to NPM
 
 ```
-$ npm install p2-inc/phasetwo-design-system
+npm install p2-inc/phasetwo-design-system
 ```
 
 ## Local Usage
@@ -17,7 +17,7 @@ $ npm install p2-inc/phasetwo-design-system
 Setup
 
 ```
-$ npm install
+npm install
 ```
 
 ### Storybook
@@ -25,25 +25,25 @@ $ npm install
 The easiest way to view components and play with their options.
 
 ```
-$ npm run storybook
+npm run storybook
 ```
 
 ### Build the library
 
 ```
-$ npm run build
+npm run build
 ```
 
 ### Tests
 
 ```
-$ npm run tests
+npm run tests
 ```
 
 in watch mode
 
 ```
-$ npm run tests:watch
+npm run tests:watch
 ```
 
 Using VS Code? Install the [Jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest) package to run tests continuously as you work in a nice, friendly manner.
